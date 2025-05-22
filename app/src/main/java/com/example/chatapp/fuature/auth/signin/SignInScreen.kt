@@ -4,6 +4,7 @@ import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -46,7 +47,7 @@ fun SignInScreen(navController: NavController) {
     LaunchedEffect(key1 = uiState.value) {
         when (uiState.value) {
             is SignInState.Success -> {
-                navController.navigate("home")
+                navController.navigate("HomeScreen")
             }
 
             is SignInState.Error -> {
@@ -88,6 +89,7 @@ fun SignInScreen(navController: NavController) {
                 modifier = Modifier.fillMaxWidth(),
                 visualTransformation = PasswordVisualTransformation()
             )
+            Spacer(Modifier.padding(16.dp))
             if (uiState.value == SignInState.Loading) {
                 CircularProgressIndicator(
 

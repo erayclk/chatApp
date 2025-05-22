@@ -24,7 +24,6 @@ class SignInScreenViewModel @Inject constructor() : ViewModel() {
                 }
             }
 
-        _state.value = SignInState.Success
 
 
     }
