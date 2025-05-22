@@ -10,13 +10,19 @@ import androidx.navigation.compose.rememberNavController
 import com.example.chatapp.fuature.auth.signin.SignInScreen
 import com.example.chatapp.fuature.auth.signup.SignUpScreen
 import com.example.chatapp.fuature.home.HomeScreen
+import com.google.firebase.auth.FirebaseAuth
 
 @Composable
 fun MainScreen() {
     Surface(modifier = Modifier.fillMaxSize()) {
         val navController = rememberNavController()
 
-        NavHost(navController = navController, startDestination = "singin") {
+        val currentUser = FirebaseAuth.getInstance().currentUser
+
+        val startDestination = if (currentUser != null) "HomeScreen" else "singin"
+
+
+        NavHost(navController = navController, startDestination = startDestination) {
 
             composable("singin") {
                 SignInScreen(navController = navController)

@@ -17,7 +17,7 @@ fun HomeScreen(navController: NavController, ){
         Column(
             modifier = Modifier.padding(it)
                 .fillMaxSize()
-                .background(Color .White)
+                .background(Color.Yellow)
         ) {
 
         }
