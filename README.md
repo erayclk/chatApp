@@ -1,84 +1,73 @@
-# Chat Uygulaması
+# 💬 ChatApp
 
-Bu proje, modern ve kullanıcı dostu bir Android sohbet uygulamasıdır. Kotlin programlama dili kullanılarak geliştirilmiştir.
+ChatApp, modern ve kullanıcı dostu arayüze sahip, gerçek zamanlı mesajlaşma özellikleri sunan bir Android sohbet uygulamasıdır. Kotlin diliyle geliştirilmiş ve Firebase altyapısını kullanmaktadır.
 
-## 📱 Özellikler
+## 🚀 Özellikler
 
-- Gerçek zamanlı mesajlaşma
-- Kullanıcı kimlik doğrulama
-- Profil yönetimi
-- Modern ve kullanıcı dostu arayüz
-- Medya paylaşım desteği
-- Çevrimiçi/çevrimdışı durum göstergesi
-- Okundu bilgisi
-- Grup sohbetleri
+- 🔒 Kullanıcı kimlik doğrulama (Firebase Authentication)
+- 💬 Gerçek zamanlı mesajlaşma (Firestore)
+- 👥 Grup sohbetleri
+- 🧑‍💻 Modern ve sezgisel kullanıcı arayüzü
+- ⚙️ MVVM mimarisi & Jetpack bileşenleri
 
-## 🛠️ Teknolojiler
+---
 
-- Kotlin
-- Android Jetpack
-- Firebase
-- Material Design
-- MVVM Mimarisi
-- LiveData
-- ViewModel
-- Coroutines
+## 🖼️ Demo
 
-## 📸 Ekran Görüntüleri 
+<div align="center">
+  <img src="screenshots/Screen_recording_20250524_182453.gif" alt="ChatApp Demo" width="300"/>
+</div>
 
-<<<<<<< HEAD
-Uygulamanın videosu:
-=======
-Uygulamanın demo görüntüsü:
->>>>>>> b9556a1 (updated readme)
+---
 
-![Demo](screenshots/Screen_recording_20250524_182453.gif)
+## 🛠️ Kullanılan Teknolojiler
 
-## 🚀 Kurulum
+| Teknoloji       | Açıklama                        |
+|----------------|---------------------------------|
+| **Kotlin**      | Android uygulaması için ana dil |
+| **Jetpack**     | ViewModel, LiveData, Navigation, DataStore |
+| **Firebase**    | Authentication, Firestore, Storage |
+| **Material Design 3** | UI/UX için modern tasarım      |
+| **Coroutines**  | Asenkron işlemler için          |
+| **MVVM**        | Uygulama mimarisi               |
 
-1. Projeyi klonlayın:
-```bash
-git clone https://github.com/erayclk/chatApp
-```
+---
 
-2. Android Studio'da projeyi açın
+## ⚙️ Kurulum
 
-3. Gerekli bağımlılıkların yüklenmesini bekleyin
+1. Bu repoyu klonlayın:
+    ```bash
+    git clone https://github.com/erayclk/chatApp
+    ```
 
-4. Uygulamayı çalıştırın
+2. Android Studio ile projeyi açın.
+
+3. Gerekli bağımlılıkların yüklenmesini bekleyin.
+
+4. Firebase yapılandırmasını aşağıdaki gibi tamamlayın:
+
+   - Firebase Console'dan yeni bir proje oluşturun.
+   - `google-services.json` dosyasını `app/` klasörüne yerleştirin.
+   - Firebase Authentication, Firestore ve Storage özelliklerini etkinleştirin.
+
+5. Uygulamayı bir emulator veya cihazda çalıştırın.
+
+---
 
 ## 📋 Gereksinimler
 
-- Android Studio Arctic Fox veya üzeri
-- Android SDK 21+
-- Kotlin 1.6.0 veya üzeri
-- Gradle 7.0+
+- Android Studio **Arctic Fox** veya üzeri
+- Android SDK **21+**
+- Kotlin **1.6.0** veya üzeri
+- Gradle **7.0+**
 
-## 🔧 Yapılandırma
+---
 
-1. Firebase Console'dan yeni bir proje oluşturun
-2. `google-services.json` dosyasını `app` klasörüne ekleyin
-3. Gerekli Firebase bağımlılıklarını yapılandırın
+## 🤝 Katkıda Bulunmak
 
-## 🤝 Katkıda Bulunma
+Katkıda bulunmak istersen memnun olurum!
 
-1. Bu depoyu fork edin
-2. Yeni bir özellik dalı oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Dalınıza push yapın (`git push origin feature/amazing-feature`)
-5. Bir Pull Request oluşturun
-
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
-## 📞 İletişim
-
-Proje Sahibi - [@github-username](https://github.com/github-username)
-
-<<<<<<< HEAD
-Proje Linki: [https://github.com/github-username/chatApp](https://github.com/github-username/chatApp) 
-=======
-Proje Linki: [https://github.com/github-username/chatApp](https://github.com/github-username/chatApp)
-
->>>>>>> b9556a1 (updated readme)
+1. Bu repoyu fork'la  
+2. Yeni bir dal oluştur:  
+   ```bash
+   git checkout -b feature/yeni-ozellik
