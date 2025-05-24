@@ -24,7 +24,7 @@ Bu proje, modern ve kullanıcı dostu bir Android sohbet uygulamasıdır. Kotlin
 - ViewModel
 - Coroutines
 
-## 📸 Ekran Görüntüleri ve Demo
+## 📸 Ekran Görüntüleri 
 
 Uygulamanın videosu:
 
