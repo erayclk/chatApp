@@ -26,11 +26,13 @@ Bu proje, modern ve kullanıcı dostu bir Android sohbet uygulamasıdır. Kotlin
 
 ## 📸 Ekran Görüntüleri 
 
+<<<<<<< HEAD
 Uygulamanın videosu:
+=======
+Uygulamanın demo görüntüsü:
+>>>>>>> b9556a1 (updated readme)
 
-<video src="screenshots/Screen_recording_20250524_182453.webm" controls autoplay loop muted width="100%">
-  Tarayıcınız video etiketini desteklemiyor.
-</video>
+![Demo](screenshots/Screen_recording_20250524_182453.gif)
 
 ## 🚀 Kurulum
 
@@ -74,4 +76,9 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 Proje Sahibi - [@github-username](https://github.com/github-username)
 
+<<<<<<< HEAD
 Proje Linki: [https://github.com/github-username/chatApp](https://github.com/github-username/chatApp) 
+=======
+Proje Linki: [https://github.com/github-username/chatApp](https://github.com/github-username/chatApp)
+
+>>>>>>> b9556a1 (updated readme)
