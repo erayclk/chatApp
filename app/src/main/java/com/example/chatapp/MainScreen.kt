@@ -1,5 +1,6 @@
 package com.example.chatapp
 
+import android.util.Log
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
@@ -39,15 +40,23 @@ fun MainScreen() {
                 HomeScreen(navController = navController)
             }
             composable(
-                "chat/{channelId}", arguments =
+                "chat/{channelId}&{channelName}", arguments =
                 listOf(
                     navArgument("channelId") {
                         type = NavType.StringType
-                    })
+
+                    },
+                    navArgument("channelName") {
+                        type = NavType.StringType
+                    }
+
+                )
             ) {
                 val channelId = it.arguments?.getString("channelId") ?: ""
+                val channelName = it.arguments?.getString("channelName") ?: ""
+                Log.d("channelName", channelName)
                 ChatScreen(
-                    navController = navController, channelId
+                    navController = navController, channelId, channelName
                 )
             }
 
