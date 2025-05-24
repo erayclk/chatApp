@@ -26,7 +26,7 @@ Bu proje, modern ve kullanıcı dostu bir Android sohbet uygulamasıdır. Kotlin
 
 ## 📸 Ekran Görüntüleri ve Demo
 
-Uygulamanın demo videosu:
+Uygulamanın videosu:
 
 <video src="screenshots/Screen_recording_20250524_182453.webm" controls autoplay loop muted width="100%">
   Tarayıcınız video etiketini desteklemiyor.
@@ -36,7 +36,7 @@ Uygulamanın demo videosu:
 
 1. Projeyi klonlayın:
 ```bash
-git clone [proje-url]
+git clone https://github.com/erayclk/chatApp
 ```
 
 2. Android Studio'da projeyi açın
